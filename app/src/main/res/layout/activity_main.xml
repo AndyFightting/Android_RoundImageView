@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.suguiming.myandroid.tab0.PresentActivity">
+
+    <com.suguiming.android_roundimageview.RoundImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:src="@mipmap/round_test"
+        android:layout_width="100dp"
+        android:layout_marginLeft="20dp"
+        android:layout_height="100dp"/>
+
+    <com.suguiming.android_roundimageview.RoundImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:src="@mipmap/round_test"
+        android:layout_width="100dp"
+        android:layout_marginLeft="20dp"
+        android:layout_height="100dp"
+        app:borderColor="@color/red"
+        app:border="2dp"
+        app:cornerRadius="10dp" />
+
+    <com.suguiming.android_roundimageview.RoundImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:src="@mipmap/round_test"
+        android:layout_width="100dp"
+        android:layout_marginLeft="20dp"
+        android:layout_height="100dp"
+        app:borderColor="@color/yellow"
+        app:border="5dp"
+        app:cornerRadius="10dp" />
+
+    <com.suguiming.android_roundimageview.RoundImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:src="@mipmap/round_test"
+        android:layout_width="100dp"
+        android:layout_marginLeft="20dp"
+        android:layout_height="100dp"
+
+        app:imageType="corner_image"
+        app:borderColor="@color/purple"
+        app:border="10dp"
+        app:cornerRadius="10dp" />
+
+    <com.suguiming.android_roundimageview.RoundImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:src="@mipmap/round_test"
+        android:layout_width="100dp"
+        android:layout_marginLeft="20dp"
+        android:layout_height="100dp"
+
+        app:imageType="corner_image"
+        app:cornerRadius="30dp" />
+
+
+
+</LinearLayout>
